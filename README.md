@@ -49,7 +49,7 @@ ln -s "$PWD/ko-prose" ~/.claude/skills/ko-prose
 
 심볼릭 링크로 걸면 `git pull` 할 때 스킬도 같이 최신이 된다. 다음 세션부터 로드된다.
 
-문서 점검 항목만 매 세션 읽히게 하려면 홈에 링크하고 `~/.claude/CLAUDE.md` 에서 `@` 로 부른다.
+스킬 본문은 관련된 작업일 때만 로드된다. 점검 항목만 매 세션 로드하려면 `doc-checklist.md` 를 홈 디렉토리에 링크하고 `~/.claude/CLAUDE.md` 에서 `@` 로 불러온다.
 
 ```bash
 ln -s "$PWD/ko-prose/doc-checklist.md" ~/.claude/ko-doc-checklist.md
