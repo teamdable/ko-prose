@@ -1,6 +1,6 @@
 # ko-prose
 
-LLM이 쓴 한국어에서 AI 티를 걷어내는 Claude Code 스킬. 영어 직역, 진행자 멘트, 자평, 구어 메타포, 분량 채우기를 잡는다.
+LLM이 쓴 한국어에서 AI 티를 걷어내는 Claude Code 스킬. 영어 직역, 진행자 멘트, 자평, 구어 메타포, 분량 채우기를 다룬다.
 
 > **English summary**
 > `ko-prose` is a Claude Code skill that strips the "AI voice" from Korean prose written or edited by an LLM.
@@ -31,7 +31,7 @@ git clone https://github.com/teamdable/ko-prose.git
 ln -s "$PWD/ko-prose" ~/.claude/skills/ko-prose
 ```
 
-복사 대신 심볼릭 링크를 쓰면 `git pull` 할 때 스킬이 같이 최신으로 유지된다. 설치 후 Claude Code 세션을 새로 시작하면 스킬이 잡힌다.
+복사 대신 심볼릭 링크를 쓰면 `git pull` 할 때 스킬이 같이 최신으로 유지된다. 설치 후 Claude Code 세션을 새로 시작하면 스킬이 로드된다.
 
 ## 문서 체크리스트를 항상 걸어두기
 
@@ -42,7 +42,7 @@ ln -s "$PWD/ko-prose/doc-checklist.md" ~/.claude/ko-doc-checklist.md
 echo '@ko-doc-checklist.md' >> ~/.claude/CLAUDE.md
 ```
 
-always-load 되는 파일은 매 세션 컨텍스트를 먹으므로 짧게 유지한다. 체크리스트(`doc-checklist.md`, 항상 로드)와 규칙 본문(`doc-style.md`, 필요할 때 로드)을 나눠 둔 이유다.
+always-load 되는 파일은 매 세션 컨텍스트를 차지하므로 짧게 유지한다. 그래서 항상 로드하는 체크리스트를 `doc-checklist.md` 로, 필요할 때만 읽는 규칙 본문을 `doc-style.md` 로 나눠 뒀다.
 
 ## 파일 구성
 
@@ -60,7 +60,7 @@ always-load 되는 파일은 매 세션 컨텍스트를 먹으므로 짧게 유�
 
 규칙은 실제 리뷰에서 거부당한 문장과 그 교정본에서 뽑았다. 공개판은 사내 식별자, 티켓 번호, 비공개 링크를 일반 예시로 바꿨다. 규칙 문장과 전/후 대조는 원본 그대로다.
 
-영어 산문에는 `stop-slop` 이나 `humanizer` 같은 별도 스킬을 쓴다. ko-prose 는 그 둘이 다루지 않는 한국어 고유 패턴을 맡는다.
+영어 산문에는 `stop-slop` 이나 `humanizer` 같은 별도 스킬을 쓴다. ko-prose 는 그 둘이 다루지 않는 한국어 고유 패턴을 다룬다.
 
 ## 라이선스
 
