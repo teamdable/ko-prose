@@ -1,3 +1,5 @@
+<!-- ko-prose, MIT License, Copyright (c) 2026 Dable Inc. https://github.com/teamdable/ko-prose -->
+
 # 문서 작성 (한국어 문서, 리포트, 스펙)
 
 ko-prose 본문은 문장 안의 문체를 다룬다. 이건 그 위 단계로, 무엇을 먼저 보여주고 무엇을 빼고 어떤 어휘로 잇는가를 다룬다.

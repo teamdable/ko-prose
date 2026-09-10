@@ -1,3 +1,5 @@
+<!-- ko-prose, MIT License, Copyright (c) 2026 Dable Inc. https://github.com/teamdable/ko-prose -->
+
 # 한국어 문서 출력 전 점검
 
 한국어로 문서, 리포트, 스펙, PR 본문, 플랜을 쓸 때 출력 직전에 확인한다. 문장 안의 문체는 `ko-prose` 스킬이 다룬다.
