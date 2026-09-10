@@ -6,6 +6,8 @@ metadata:
   related: stop-slop(영어), humanizer(영어)
 ---
 
+<!-- ko-prose, MIT License, Copyright (c) 2026 Dable Inc. https://github.com/teamdable/ko-prose -->
+
 # ko-prose: 한국어 글 AI체 제거
 
 한국어 콘텐츠에서 정보만 남기고 연출, 판정, 의인화, 직역, 메타포를 뺀다.
