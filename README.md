@@ -2,13 +2,15 @@
 
 LLM 에 개발 문서를 한국어로 쓰게 하면 이런 문장이 나온다.
 
-> 살아 있는 사례를 보겠습니다
-> validator 배선을 완료했습니다
-> 유의미한 개선이 있었습니다
+> 살아 있는 사례를 보겠습니다.
+>
+> validator 배선을 완료했습니다.
+>
+> 유의미한 개선이 있었습니다.
 
-각각 live examples, wire up, significant 를 한국어 단어로 1:1 바꾼 것이다. 한국 사람은 그렇게 글을 쓰지 않는다.
+각각 live examples, wire up, significant 를 1:1 번역한 것이다. 한국인은 그렇게 쓰지 않는다.
 
-ko-prose 는 이런 문장을 걷어내는 Claude Code 스킬이다. 규칙 11개는 실제 리뷰에서 거부당한 문장과 교정본에서 뽑았다.
+ko-prose 는 이런 문장을 걷어내는 Claude Code 스킬이다. 이 스킬이 규정한 규칙들은 실제 리뷰에서 거부당한 문장과 교정본에서 뽑았다.
 
 > **English summary** — `ko-prose` is a Claude Code skill that strips the "AI voice" from Korean prose written by an LLM: calques from English, self-congratulatory framing, forced rule-of-three lists, and padding. It is aimed at developer writing, and every rule comes from a sentence that was rejected in review together with the correction that replaced it. Korean-only, because the rules are about Korean sentences.
 
